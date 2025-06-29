@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application form</title>
+  </head>
+  <body>
+    <form >
+    <h1 align="center"><strong>APPLICATION FORM</strong></h1>
+  
+    <fieldset>
+      <legend>Personal Details</legend>
+      <table >
+        <tr>
+          <td style="padding-right: 100px;padding-bottom: 20px;" align="left">
+            
+              <label for="">Applicant's full name </label><br />
+          </td>
+         
+          <td style="padding-bottom: 20px; padding-right: 300px;">
+              <select name="Select" id="">
+                <option value="" disabled selected>--Select--</option>
+                <option value="">Mr</option>
+                <option value="">Mrs</option>
+                <option value="">Miss</option>
+              </select>
+              <input type="text"/>
+            
+          </td>
+          <td style="padding-right: 100px;"> 
+
+              <label for=""> Care Of</label> 
+          </td>
+          <td style="padding-bottom: 20px;">
+        
+            Parent<input type="radio" name="careof" value="P" />
+            Guardian<input type="radio" name="careof" value="G" />
+          
+              </td>
+        </tr>
+        <tr>
+          
+            
+              <td style="padding-right: 100px;padding-bottom: 20px;"align="left">
+              <label for="">Father's Name</label>
+              </td>
+              <td style="padding-bottom: 20px; padding-right: 300px;">
+                <select name="Select" id="">
+                  <option value="" disabled selected>mr</option>
+                  </select>
+                  <input type="text"/>
+                  </td>
+                  <td style="padding-right: 100px;padding-bottom: 20px;"align="left">
+                    <label for="">Mother's Name</label>
+                    </td>
+                    <td style="padding-bottom: 20px;">
+                      <select name="Select" id="">
+                        <option value="" disabled selected>mrs.</option>
+                        </select>
+                        <input type="text"/>
+                        </td>
+           
+          
+        </tr>
+        <tr>
+          
+          
+            <td style="padding-right: 100px; padding-bottom: 20px;"align="left">
+            <label for="">Gender</label>
+            </td>
+            <td style="padding-bottom: 20px; padding-right: 300px;">
+              
+              Male<input type="radio" name="gender" value="M" />
+              Female<input type="radio" name="gender" value="F" />
+              Other<input type="radio" name="gender" value="O" />
+                </td>
+                <td style="padding-right: 100px; padding-bottom: 20px;"align="left">
+                  <label for="">Date Of Birth</label>
+                  </td>
+                  <td style="padding-bottom: 20px;">
+                    <input type="date" name="DOB" /><br />
+         
+        
+      </tr>
+      <tr>
+          
+        
+          <td style="padding-right: 100px ;padding-bottom: 20px;"align="left">
+          <label for="">Marital Status</label>
+          </td>
+          <td style="padding-bottom: 20px;padding-right:300px ;">
+            <select name="Select" id="">
+              <option value="" disabled selected>--select--</option>
+              <option value="">Single</option>
+              <option value="">Married</option>
+              <option value="">Divorced</option>
+              </select>
+              </td>
+              <td style="padding-right: 100px ;padding-bottom: 20px;"align="left">
+                <label for="">Category</label>
+                </td>
+                <td style="padding-bottom: 20p;x">
+                  <select name="Select" id="">
+                    <option value="" disabled selected>--select--</option>
+                    <option value="">Schedule caste</option>
+                    <option value="">general</option>
+                    <option value="">OBC</option>
+                    </select>
+                    </td>
+        
+      
+    </tr>
+    <tr>
+          
+      
+        <td style="padding-right: 100px ; padding-bottom: 20px;"align="left">
+        <label for="">Hnadicapped</label>
+        </td>
+        <td style="padding-bottom: 20px; padding-right: 300px;">
+         
+          No<input type="radio" name="handicapped" value="No" />
+          Yes<input type="radio" name="handicapped" value="Yes" />
+         
+            </td>
+            <td style="padding-right: 100px ; padding-bottom: 20px;"align="left">
+              <label for="">Ex-Serviceman</label>
+              </td>
+              <td style="padding-bottom: 20px;">
+               
+                No<input type="radio" name="handicapped" value="No" />
+                Yes<input type="radio" name="handicapped" value="Yes" />
+               
+              </td>
+      
+    
+  </tr>
+  <tr>
+          
+    
+      <td style="padding-right: 100px;"align="left">
+      <label for="">EWS</label>
+      </td>
+      <td style="padding-right: 300px;">
+       
+        No<input type="radio" name="EWS" value="No" />
+        Yes<input type="radio" name="EWS" value="Yes" />
+       
+          </td>
+          <form action="">
+            <td style="padding-right: 100px;"align="left">
+            <label for="">Religion</label>
+            </td>
+            <td><select name="Select" id="">
+              <option value="" disabled selected>--select--</option>
+              <option value="">Sikh</option>
+              <option value="">Hindu</option>
+              <option value="">Muslim</option>
+              </select></td>
+   
+  
+</tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>Contact Details</legend>
+      <table>
+        <tr>
+          
+            <td style="padding-right: 100px; padding-bottom: 20px;">
+              <label for="">Mobile Number</label>
+            </td>
+            <td style="padding-right: 300px; padding-bottom: 20px;"> <input type="tel" minlength="10" maxlength="10"></td>
+            <td style="padding-right: 100px; padding-bottom: 20px;">
+              <label >Email ID</label>
+            </td>
+            <td style="padding-bottom: 20px;">
+              <input type="email" required>
+            </td>
+         
+        </tr>
+        <tr>
+          <td style="padding-right: 100px;padding-bottom: 20px;">
+            <label for="">Address Line 1</label>
+          </td>
+          <td style="padding-right: 300px;padding-bottom: 20px;">
+            <input type="text">
+          </td>
+          <td style="padding-right: 100px;padding-bottom: 20px;">
+            <label for="">Address Line 2</label>
+          </td>
+          <td style="padding-bottom: 20px;">
+            <input type="text">
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-right: 100px;padding-bottom: 20px;">
+            <label for="">City</label>
+          </td>
+          <td style="padding-bottom: 20px;padding-right: 300px;">
+            <input type="text" name="" id="">
+          </td>
+          <td style="padding-bottom: 20px;padding-right: 100px;">
+            <label for="">State</label>
+          </td>
+          <td style="padding-bottom: 20px;">
+            <select name="Select" id="">
+              <option value="" disabled selected>--select--</option>
+              <option value="">punjab</option>
+              <option value="">Haryana</option>
+              <option value="">Gujarat</option>
+              <option value="">Mumbai</option>
+              <option value="">Uttar pradesh</option>
+              <option value="">Bihar</option>
+              <option value="">Jharkhand</option>
+              <option value="">Madhya Pradesh</option>
+              <option value="">Kerala</option>
+              <option value="">Karnataka</option>
+              <option value="">Tamil nadu</option>
+              <option value="">Odissa</option>
+              <option value="">Chatisgarh</option>
+              <option value="">Assam</option>
+              <option value="">Arunachal pradesh</option>
+              <option value="">Andra pradesh</option>
+              <option value="">Sikkim</option>
+              <option value="">Nagaland</option>
+              <option value="">Manipur</option>
+              <option value="">Mizoram</option>
+              <option value="">Tripura</option>
+              <option value="">Meghayala</option>
+              <option value="">West bengal</option>
+              <option value="">Rajasthan</option>
+              <option value="">Himachal</option>
+              </select>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding-right: 100px;padding-bottom: 20px;">
+            <label for="">Pin Code</label>
+          </td>
+          <td style="padding-bottom: 20px;padding-right: 300px;">
+            <input type="text" name="" id="" maxlength="6" minlength="6">
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>Qualification Details</legend>
+      <table>
+        <tr>
+          <td style="padding-right: 70px;padding-bottom: 20px;"><strong>Sr No.</strong></td>
+          <td style="padding-right: 70px; padding-bottom: 20px;"><strong>Qualification</strong></td>
+          <td style="padding-right: 70px; padding-bottom: 20px;"><strong>Board/University</strong></td>
+          <td style="padding-right: 70px; padding-bottom: 20px;"><strong>Passing Year</strong></td>
+          <td style="padding-right: 70px; padding-bottom: 20px;"><strong>Max Marks</strong></td>
+          <td style="padding-right: 70px;padding-bottom: 20px;"><strong>Marks Obtain</strong></td>
+          <td style="padding-right: 70px;padding-bottom: 20px;"><strong>Percentage</strong></td>
+        </tr>
+        <tr>
+          <td style="padding-right: 70px; padding-bottom: 20px;">1</td>
+          <td><select name="Select" id="">
+            <option value="" disabled selected>--select--</option>
+            <option value="">B.tech</option>
+            <option value="">BCA</option>
+            <option value="">B.com</option>
+            </select> </td>
+            <td style="padding-right: 70px; padding-bottom: 20px;">
+              <input type="text" name="" id="">
+            </td>
+            <td style="padding-right: 70px; padding-bottom: 20px;">
+              <input type="text" name="" id="" maxlength="4">
+            </td>
+            <td style="padding-right: 70px; padding-bottom: 20px;">
+              <input type="text" name="" id="" maxlength="4">
+            </td>
+            <td style="padding-right: 70px;padding-bottom: 20px;">
+              <input type="text" name="" id="" maxlength="4">
+            </td>
+            <td style="padding-right: 70px;padding-bottom: 20px;">
+              <input type="text" name="" id="" maxlength="4">
+            </td>
+        </tr>
+        <tr>
+          <td style="padding-right: 70px; padding-bottom: 20px;">2</td>
+          <td><select name="Select" id="">
+            <option value="" disabled selected>--select--</option>
+            <option value="">B.tech</option>
+            <option value="">BCA</option>
+            <option value="">B.com</option>
+            </select> </td>
+            <td style="padding-right: 70px; padding-bottom: 20px;">
+              <input type="text" name="" id="">
+            </td>
+            <td style="padding-right: 70px; padding-bottom: 20px;">
+              <input type="text" name="" id="" maxlength="4">
+            </td>
+            <td style="padding-right: 70px; padding-bottom: 20px;">
+              <input type="text" name="" id="" maxlength="4">
+            </td>
+            <td style="padding-right: 70px;padding-bottom: 20px;">
+              <input type="text" name="" id="" maxlength="4">
+            </td>
+            <td style="padding-right: 70px;padding-bottom: 20px;">
+              <input type="text" name="" id="" maxlength="4">
+            </td>
+            </tr>
+            <tr>
+              <td style="padding-right: 70px; padding-bottom: 20px;">3</td>
+              <td><select name="Select" id="">
+                <option value="" disabled selected>--select--</option>
+                <option value="">B.tech</option>
+                <option value="">BCA</option>
+                <option value="">B.com</option>
+                </select> </td>
+                <td style="padding-right: 70px; padding-bottom: 20px;">
+                  <input type="text" name="" id="">
+                </td>
+                <td style="padding-right: 70px; padding-bottom: 20px;">
+                  <input type="text" name="" id="" maxlength="4">
+                </td>
+                <td style="padding-right: 70px; padding-bottom: 20px;">
+                  <input type="text" name="" id="" maxlength="4">
+                </td>
+                <td style="padding-right: 70px;padding-bottom: 20px;">
+                  <input type="text" name="" id="" maxlength="4">
+                </td>
+                <td style="padding-right: 70px;padding-bottom: 20px;">
+                  <input type="text" name="" id="" maxlength="4">
+                </td>
+                <tr>
+                  <td style="padding-right: 70px; padding-bottom: 20px;">4</td>
+                  <td><select name="Select" id="">
+                    <option value="" disabled selected>--select--</option>
+                    <option value="">B.tech</option>
+                    <option value="">BCA</option>
+                    <option value="">B.com</option>
+                    </select> </td>
+                    <td style="padding-right: 70px; padding-bottom: 20px;">
+                      <input type="text" name="" id="">
+                    </td>
+                    <td style="padding-right: 70px; padding-bottom: 20px;">
+                      <input type="text" name="" id="" maxlength="4">
+                    </td>
+                    <td style="padding-right: 70px; padding-bottom: 20px;">
+                      <input type="text" name="" id="" maxlength="4">
+                    </td>
+                    <td style="padding-right: 70px;padding-bottom: 20px;">
+                      <input type="text" name="" id="" maxlength="4">
+                    </td>
+                    <td style="padding-right: 70px;padding-bottom: 20px;">
+                      <input type="text" name="" id="" maxlength="4">
+                    </td>
+                </tr>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>Language Knowledge</legend>
+      <table>
+        
+      <tr>
+        <td style="padding-right: 300px;">Language</td>
+        <td style="padding-right: 300px;">Reading</td>
+        <td style="padding-right: 300px;">Writing</td>
+        <td style="padding-right: 300px;">Spoken</td>
+        </tr>
+        <tr>
+          <td style="padding-right: 300px;">Hindi</td>
+         <td style="padding-right: 300px;"> <input type="checkbox"></td>
+         <td style="padding-right: 300px;"> <input type="checkbox"></td>
+         <td style="padding-right: 300px;"> <input type="checkbox"></td>
+        </tr>
+        <tr>
+          <td style="padding-right: 300px;">English</td>
+         <td style="padding-right: 300px;"> <input type="checkbox"></td>
+         <td style="padding-right: 300px;"> <input type="checkbox"></td>
+         <td style="padding-right: 300px;"> <input type="checkbox"></td>
+        </tr>
+        <tr>
+          <td style="padding-right: 300px;">Urdu</td>
+         <td style="padding-right: 300px;"> <input type="checkbox"></td>
+         <td style="padding-right: 300px;"> <input type="checkbox"></td>
+         <td style="padding-right: 300px;"> <input type="checkbox"></td>
+        </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+      <legend>Identification Details</legend>
+      <table>
+        <tr>
+          <td style="padding-right: 50px;">
+            <label for="">Aadhar Card Number</label>
+            <input type="text"pattern="\d{12}" minlength="12" maxlength="12">
+          </td>
+          <td> <label for="">PAN Card Number</label>
+          <input type="text" name="" id=""></td>
+        </tr>
+        <tr>
+          <td style="padding-right: 50px;">
+            <label style="padding-right: 50px;">Upload Photo</label>
+            
+      <input type="file" name="image" accept="image/*" />
+          </td>
+          <td style="padding-right: 50px;">
+            <label style="padding-right: 35px;">Upload Photo</label>
+            
+      <input type="file" name="image" accept="image/*" />
+          </td>
+        </tr>
+        
+      </table>
+    </fieldset>
+    <div style="text-align: center;">
+      <button>Submit</button>
+      <button type="back">Back</button>
+    </div>
+  </form>
+  
+  </body>
+</html>

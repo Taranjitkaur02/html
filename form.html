@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="submit.html">
+      <label>Username</label>
+      <input type="text" placeholder="enter your name" name="username" /> <br />
+      <label>Email</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="enter your email"
+        required
+      /><br />
+      <label>password</label>
+      <input
+        type="Password"
+        name="Password"
+        placeholder="enter your Password"
+        required
+      /><br />
+      <label>age</label>
+      <input type="number" name="age" min="20" max="80" /><br />
+      <label for="">contact</label>
+      <input type="tel" name="contact" minlength="10" maxlength="10" /><br />
+      <label>image</label>
+      <input type="file" name="image" accept="image/*" /><br />
+      <label for="">DOB</label>
+      <input type="date" name="DOB" /><br />
+      <label for="">Month</label>
+      <input type="month" name="month" /><br />
+      <label for="">time</label>
+      <input type="time" name="time" /><br />
+      <label for="">range</label>
+      <input type="range" name="range" /><br />
+      <label for="">Address</label>
+      <textarea></textarea><br />
+      <label for="">color</label>
+      <input type="color" name="color" /><br />
+      <label for=""> state</label>
+      <select name="state" id="">
+        <option value="" disabled selected>select state</option>
+        <option value="">punjab</option>
+        <option value="">haryana</option>
+        <option value="">mumbai</option>
+        <option value="">assam</option></select
+      ><br />
+      <label for="">city</label>
+      <input list="name" />
+      <datalist id="name">
+        <option>Jalandhar</option>
+        <option>Jamshadpur</option>
+        <option>jammu</option>
+        <option>Kapurthala</option>
+        <option>kartarpur</option>
+      </datalist>
+      <br />
+      <label>gender</label>
+      <input type="radio" name="gender" value="M" />Male
+      <input type="radio" name="gender" value="F" />Female
+      <input type="radio" name="gender" value="O" />Other
+      <br />
+      <input type="checkbox" checked />Terms & conditions
+      <br />
+      <label for="">button</label>
+      <button>submit</button>
+    </form>
+  </body>
+</html>
